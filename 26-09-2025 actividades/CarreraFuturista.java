@@ -8,6 +8,7 @@ public class CarreraFuturista {
         System.out.print("introduce año de la carrera: ");
         int añoCarrera = sc.nextInt();
         System.out.println("faltan " + (añoCarrera - añoActual) + " años para la carrera");
+        sc.close();
 
     }
 
